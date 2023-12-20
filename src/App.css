@@ -1,0 +1,168 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  text-align: center;
+}
+
+.bannerAdvertisement {
+  text-align: center;
+}
+.bannerAdvertisement div {
+  font-size: small;
+}
+
+.contentWidget {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  color: blue;
+}
+
+.st{
+  /*отключаем стандартное оформление*/
+  appearance: none;
+  border: 0;
+  /*делаем кнопку жёлтой*/
+  background-color: #ffdb4d;
+  /*размер шрифта и кнопки*/
+  font-size: 20px;
+  width: 70px;
+  height: 44px;
+  /*настраиваем отступы*/
+  padding: 9px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  /*сдвигаем текст вплотную к кнопке*/
+ 
+}
+
+.form {
+  height: 44px;
+  display: flex;
+  justify-content: center;
+}
+
+.politicNews {
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.politicNews div {
+  display: flex;
+  font-size: small;
+}
+
+.politicNews img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+} 
+
+.politicNews a:link {
+  color: black;
+}
+
+.politicNews a:active {
+  color: green;
+}
+
+.politicNews a:hover {
+  color: red;
+}
+
+.currencyExchangeNews {
+  display: flex;
+  margin-top: 6px;
+}
+
+.currencyExchangeNews div {
+  margin-left: 10px;
+}
+
+.newsWidget {
+  margin-left: 60px;
+}
+
+.weatherWidget {
+  display: flex;
+  
+}
+
+.weatherWidget img {
+  width: 50px;
+}
+
+.nowTemperature {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: xx-large;
+}
+
+.otherTemperature {
+  display: flex;
+  flex-direction: column;
+}
+
+.otherTemperature span {
+  margin: 4px;
+  font-size:small;
+}
+
+ul.menu-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  gap: 20px;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+img.pictureBanner {
+  max-height: 150px;
+}
